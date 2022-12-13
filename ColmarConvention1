@@ -5,7 +5,7 @@
     This configuration file was written by the eclipse-cs plugin configuration editor
 -->
 <!--
-    Checkstyle-Configuration: Projet Colmar Style
+    Checkstyle-Configuration: Checkstyle
     Description: none
 -->
 <module name="Checker">
@@ -69,6 +69,26 @@
     <module name="StringLiteralEquality"/>
     <module name="VisibilityModifier"/>
     <module name="TodoComment"/>
+    <module name="EmptyBlock"/>
+    <module name="LeftCurly"/>
+    <module name="RightCurly"/>
+    <module name="NeedBraces"/>
+    <module name="AvoidInlineConditionals"/>
+    <module name="EmptyStatement"/>
+    <module name="EqualsAvoidNull"/>
+    <module name="AvoidStarImport"/>
+    <module name="ImportOrder">
+      <property name="separated" value="true"/>
+      <property name="separatedStaticGroups" value="true"/>
+    </module>
+    <module name="Indentation"/>
+    <module name="JavadocMissingLeadingAsterisk"/>
+    <module name="JavadocMissingWhitespaceAfterAsterisk"/>
+    <module name="JavadocTagContinuationIndentation"/>
+    <module name="JavadocParagraph"/>
+    <module name="BooleanExpressionComplexity"/>
+    <module name="AnonInnerLength"/>
   </module>
   <module name="JavadocPackage"/>
+  <module name="LineLength"/>
 </module>
