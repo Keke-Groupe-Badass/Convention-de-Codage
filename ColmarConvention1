@@ -29,8 +29,6 @@
     <module name="InvalidJavadocPosition"/>
     <module name="JavadocContentLocation"/>
     <module name="AbstractClassName"/>
-    <module name="PackageName"/>
-    <module name="ClassTypeParameterName"/>
     <module name="LocalVariableName"/>
     <module name="MethodTypeParameterName"/>
     <module name="TypeName"/>
@@ -54,7 +52,6 @@
     <module name="EmptyCatchBlock"/>
     <module name="IllegalCatch"/>
     <module name="PackageDeclaration"/>
-    <module name="FinalLocalVariable"/>
     <module name="IllegalToken"/>
     <module name="UnnecessarySemicolonInTryWithResources"/>
     <module name="UnnecessarySemicolonAfterOuterTypeDeclaration"/>
@@ -72,7 +69,6 @@
     <module name="EmptyBlock"/>
     <module name="LeftCurly"/>
     <module name="RightCurly"/>
-    <module name="NeedBraces"/>
     <module name="AvoidInlineConditionals"/>
     <module name="EmptyStatement"/>
     <module name="EqualsAvoidNull"/>
