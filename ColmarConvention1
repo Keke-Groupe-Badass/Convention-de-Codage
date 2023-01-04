@@ -28,7 +28,6 @@
     <module name="JavadocStyle"/>
     <module name="InvalidJavadocPosition"/>
     <module name="JavadocContentLocation"/>
-    <module name="AbstractClassName"/>
     <module name="LocalVariableName"/>
     <module name="MethodTypeParameterName"/>
     <module name="TypeName"/>
